@@ -1,0 +1,124 @@
+
+#podcast{
+  height: 200px;
+  width: auto;
+  margin-top: 3%;
+  background: rgba(255,255,255,0.2);
+}
+#imgpod{
+  height: auto;
+  width: 25%;
+  border: thin solid;
+  border-radius: 15px;
+  border-color: rgba(255,255,255,0);
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#logopage{
+  height: auto;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 0%;
+  border: thin solid;
+  border-radius: 15px;
+  border-color: rgba(255,255,255,0);
+}
+#logo{
+  height: auto;
+  width: 7%;
+  margin-top: 0% ;
+  margin-left: -1%;
+}
+#btmenu {
+  display: block;
+  height: auto;
+  width: 10%;
+  border: none;
+  padding: 1.4rem;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px;
+  margin-top: -4.8%;
+  margin-left: 77.3%;
+  margin-right: 15%;
+  outline: 0;
+  z-index: 10;
+
+}
+#barra {
+  background: rgba(255,255,255,0.3);
+  height: 70px;
+  width: auto;
+}
+#btquem {
+  display: block;
+  height: auto ;
+  width: auto;
+  border: none;
+  padding: 1.4rem;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-top: -5%;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 0;
+  float: right;
+}
+#btquem:hover {
+   background: rgba(0,0,0,0.5);
+}
+#btmenu:hover {
+   background: rgba(0,0,0,0.5);
+}
+a {
+  text-decoration: none;
+color: #fff;
+}
+h1{
+  width: auto;
+    display: block;
+    font-size: 25px;
+    margin-top: -11%;
+    margin-left: 28%;
+    margin-right: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255,255)
+}
+p{
+  width: auto;
+  display: block;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-left: 28%;
+  margin-right: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgba(255,255,255,0.8)
+}
+
+  body {
+    overflow-x:hidden;
+    margin: 0px;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}

@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: #000;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background: url("img/back.jpg") no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+#logo{
+  height: auto;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 23%
+}
+#menu {
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#btpod {
+  display: block;
+  width: auto;
+  padding: .4rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 2%;
+  margin-left: 39%;
+  outline: 0;
+}
+#btquem {
+  display: block;
+  width: auto;
+  padding: .4rem;
+
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: -3.1%;
+  margin-left: 48%;
+  transition: .3s background;
+  outline: 0;
+}
+#btquem:hover {
+   background: rgba(0,0,0,0.5);
+}
+#btpod:hover {
+   background: rgba(0,0,0,0.5);
+}
+a {
+  text-decoration: none;
+color: #fff;
+}
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(back.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
